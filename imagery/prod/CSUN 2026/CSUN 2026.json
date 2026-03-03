@@ -1,0 +1,27 @@
+[
+    {
+        "attribution": {
+            "required": true,
+            "text": "U.S. Department of Agriculture",
+            "url": "https://naip-usdaonline.hub.arcgis.com/"
+        },
+        "description": "National Agriculture Imagery Program",
+        "extent": {
+            "max_zoom": 18,
+            "polygon": [
+                [
+                    [-180.0, -85.0511],
+                    [180.0, -85.0511],
+                    [180.0, 85.0511],
+                    [-180.0, 85.0511],
+                    [-180.0, -85.0511]
+                ]
+            ]
+        },
+        "icon": "https://osmlab.github.io/editor-layer-index/sources/north-america/us/USDA.png",
+        "id": "naip",
+        "name": "National Agriculture Imagery Program",
+        "type": "tms",
+        "url": "https://gis.apfo.usda.gov/arcgis/rest/services/NAIP/USDA_CONUS_PRIME/ImageServer/tile/{zoom}/{y}/{x}"
+    }
+]
